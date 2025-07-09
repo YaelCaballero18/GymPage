@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+/* navegador */
+nav{
+    background-color: azure;
+    width: 100%;
+    height: 110px;
+}
+#nav1{
+    list-style-type: none;
+    display: flex;
+    gap: 100px;
+
+}
+#maintype{
+    padding-right: 1000px;
+    padding-left: 30px;
+}
+li{
+    text-decoration: none;
+    color: rgb(0, 34, 63);
+}
