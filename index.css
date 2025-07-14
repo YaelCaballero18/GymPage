@@ -1,23 +1,103 @@
 body{
     background-color: rgb(255, 255, 255);
+    margin: 20px 10px 10px 20px;
 }
 /* navegador */
 nav{
     background-color: azure;
     width: 100%;
     height: 110px;
+    background-color: blanchedalmond;
+    font-size: 40px;
+    margin-right: 30px;
+    
 }
 #nav1{
-    list-style-type: none;
     display: flex;
     gap: 100px;
-
+    list-style: none;
 }
+
+nav a {
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
 #maintype{
-    padding-right: 1000px;
-    padding-left: 30px;
+  padding-right: 600px;
+  padding-left: 300px;
 }
 li{
     text-decoration: none;
-    color: rgb(0, 34, 63);
+    color: rgb(255, 255, 255);
+}
+
+/* bloue 1  */
+#visual1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#mainphrase{
+    margin-top: 100px;
+   
+    font-size: 100px;
+}
+#secphrase{
+    font-size: 30px;
+}
+
+#unete{
+
+    display: block;
+    margin: 0 auto;
+    border-radius: 40px;
+    height: 40px ;
+    width: 100px ;
+    margin-top: 50px;
+}
+
+#cardsmain{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 100px;
+}
+
+.cards{
+    border: 5px solid transparent;
+    margin: 10px;
+    text-align: center;
+    background-color: transparent;
+}
+
+/* bloque 2  */
+
+#maingym{
+    display: flex;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+}
+#titulo{
+    font-size: 40px;
+}
+#textcounter{
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+
+/* bloque 3  */
+
+#galeria{
+    text-align: center;
+ 
+}
+#txtgaleria{
+       font-size: 40px;
 }
