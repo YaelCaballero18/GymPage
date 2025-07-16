@@ -9,9 +9,10 @@ nav{
     background-color: transparent;
     width: 100%;
     height: 110px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(199, 197, 197, 0.1);
     font-size: 30px;
     margin-right: 30px;
+    border-radius: 30px;
     
 }
 #nav1{
@@ -126,11 +127,7 @@ li{
     border-radius: 50px;
 }
 
-
-
 /* bloque 3  */
-
-
 #galeria{
     padding-top: 50px;
     text-align: center;
@@ -154,3 +151,87 @@ li{
 .fotos img{
     border-radius: 20px;
 }
+
+
+/* PAGINA DE EJERCICIOS  */
+
+
+/* bloque 1 */
+
+.parts{
+    text-align: center;
+}
+#maintext{
+    font-size: 40px;
+}
+
+.part1images{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.part1images img  {
+    
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+.part1txt{
+    display: flex;
+    justify-content: center;
+
+}
+.part1txt h2{
+    text-align: center;
+    font-size: 40px;
+}
+.part1txt p{
+    text-align: center;
+    font-size: 20px;
+}
+.part1txt button{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    color: black;
+    background-color: transparent;
+    font-size: 20px;
+
+}
+
+.part1txt button a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+.part1txt button a:hover{
+    text-decoration: none;
+    color: rgb(177, 174, 174);
+
+}
+
+.separacion2{
+    padding-top: 60px;
+    padding-left: 300px;
+}
+
+/* Bloque 2*/
+
+#ejervariados{
+    padding-top: 40px;
+}
+#phrase1{
+    font-size: 20px;
+}
+
+.variados{
+    text-align: center;
+    
+}
+.variados img{
+    margin-right: 40px;
+    margin-bottom:  40px;
+    border-radius: 40px;
+}
+
